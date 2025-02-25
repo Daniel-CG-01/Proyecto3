@@ -119,7 +119,7 @@ public class Arkanoid2 extends JFrame implements KeyListener {
 				score++;
 			}
 
-			if (score == (COUNT_BLOCKS_X * COUNT_BLOCKS_Y)) {
+			if (score == 168) {
 				win = true;
 				text = "You have won! \nYour score was: " + score
 						+ "\n\nPress Enter to restart";
